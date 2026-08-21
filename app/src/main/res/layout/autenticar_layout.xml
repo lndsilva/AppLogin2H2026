@@ -18,45 +18,94 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:layout_gravity="center_horizontal"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textAllCaps="true"
-        android:textColor="#8E24AA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Código de autenticação" />
+        android:layout_gravity="center_horizontal"
+        android:text="Código de autenticação"
+        android:textAllCaps="true"
+        android:textColor="#8E24AA"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <ImageView
+        <EditText
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="#D81B60"/>
-        <ImageView
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="#039BE5"/>
-        <ImageView
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="#2c2c2c"/>
-        <ImageView
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="#00897B"/>
-        <ImageView
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="#FFB300"/>
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
-
-
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:text="Autenticar" />
 
 
 </LinearLayout>
