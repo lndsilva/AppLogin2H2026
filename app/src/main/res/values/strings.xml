@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">MyApp</string>
     <array name="dados">
-        São Paulo
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Paraná</item>
+        <item>Ceará</item>
+        <item>Goiás</item>
+        <item>Belo Horizonte</item>
     </array>
 </resources>
